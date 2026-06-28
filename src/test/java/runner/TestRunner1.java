@@ -8,7 +8,7 @@ import io.cucumber.testng.CucumberOptions;
 		features = {"src/test/resources/features/pet.feature",
 					"src/test/resources/features/petStore.feature"},
 		glue = {"stepDefinition"},
-		dryRun = false,
+		dryRun = true,
 		monochrome = false,
 		plugin = {
 				"pretty",
@@ -17,7 +17,7 @@ import io.cucumber.testng.CucumberOptions;
 				"junit:target/cucumber-reports/petStore.xml"
 		})
 	
-public class TestRunner extends AbstractTestNGCucumberTests{
+public class TestRunner1 extends AbstractTestNGCucumberTests{
 
 //	@Override
 //	@DataProvider(parallel = true)
