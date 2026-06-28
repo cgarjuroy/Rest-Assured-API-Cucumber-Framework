@@ -1,0 +1,37 @@
+{
+  "id" : "e7cb3124-547b-4ab4-8315-398fe2740c03",
+  "name" : "user_login",
+  "request" : {
+    "urlPath" : "/user/login",
+    "method" : "GET",
+    "queryParameters" : {
+      "username" : {
+        "hasExactly" : [ {
+          "equalTo" : "ginette.schuster"
+        } ]
+      },
+      "password" : {
+        "hasExactly" : [ {
+          "equalTo" : "paw8cvz79"
+        } ]
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"code\":200,\"type\":\"unknown\",\"message\":\"logged in user session:1782659985337\"}",
+    "headers" : {
+      "X-Rate-Limit" : "5000",
+      "Server" : "Jetty(9.2.9.v20150224)",
+      "Access-Control-Allow-Origin" : "*",
+      "Access-Control-Allow-Methods" : "GET, POST, DELETE, PUT",
+      "X-Expires-After" : "Sun Jun 28 16:19:45 UTC 2026",
+      "Access-Control-Allow-Headers" : "Content-Type, api_key, Authorization",
+      "Date" : "Sun, 28 Jun 2026 15:19:45 GMT",
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "e7cb3124-547b-4ab4-8315-398fe2740c03",
+  "persistent" : true,
+  "insertionIndex" : 5
+}

@@ -18,7 +18,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
           <version>3.5.5</version>
           <configuration>
             <includes>
-				<include>**/TestRunner.java</include>
+				<include>**/TestRunner1.java</include>
+				<include>**/TestRunner2.java</include>
 			</includes>
           </configuration>
         </plugin>
@@ -151,6 +152,13 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
     <artifactId>datafaker</artifactId>
     <version>2.5.4</version>
     <scope>compile</scope>
+</dependency>
+
+<dependency>
+  <groupId>org.wiremock</groupId>
+  <artifactId>wiremock</artifactId>
+  <version>3.13.2</version>
+  <scope>test</scope>
 </dependency>
 
 </dependencies>

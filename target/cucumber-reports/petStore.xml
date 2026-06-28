@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="16.41" tests="6" skipped="0" failures="0" errors="0">
-<testcase classname="Pet detailed information" name="Display all available pet details" time="8.299">
+<testsuite name="Cucumber" time="0.698" tests="6" skipped="0" failures="0" errors="0">
+<testcase classname="Pet detailed information" name="Display all available pet details" time="0.024">
 <system-out><![CDATA[
 Given User want to access pet details.......................................passed
 When Retrieve all pet details...............................................passed
 Then Validate details are correct...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Pet detailed information" name="Add new pet details" time="2.24">
+<testcase classname="Pet detailed information" name="Add new pet details" time="0.009">
 <system-out><![CDATA[
 Given User has new pet details..............................................passed
 When User add new pet details...............................................passed
 Then Pet is successfully added..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Pet detailed information" name="Validate added pet details" time="1.062">
+<testcase classname="Pet detailed information" name="Validate added pet details" time="0.01">
 <system-out><![CDATA[
 Given User has added pet ID.................................................passed
 When get details of added pet...............................................passed
 Then Pet details should be displayed........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PetStore Inventory" name="Get PetStore Inventory Details" time="1.253">
+<testcase classname="PetStore Inventory" name="Get PetStore Inventory Details" time="0.011">
 <system-out><![CDATA[
 Given User is in Pet Store page.............................................passed
 When Get inventory Details..................................................passed
 Then Validate inventory details.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PetStore Inventory" name="Place order in PetStore" time="1.72">
+<testcase classname="PetStore Inventory" name="Place order in PetStore" time="0.017">
 <system-out><![CDATA[
 Given User is in Pet Store page.............................................passed
 Given User has all details of petorder......................................passed
@@ -36,7 +36,7 @@ When user place order.......................................................pass
 Then Validate schema of place order.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PetStore Inventory" name="Get placed order details" time="1.389">
+<testcase classname="PetStore Inventory" name="Get placed order details" time="0.006">
 <system-out><![CDATA[
 Given User is in Pet Store page.............................................passed
 Given User has placed orderId...............................................passed

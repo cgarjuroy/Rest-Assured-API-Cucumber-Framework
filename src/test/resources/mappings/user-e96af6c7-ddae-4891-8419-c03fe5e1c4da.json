@@ -1,0 +1,28 @@
+{
+  "id" : "e96af6c7-ddae-4891-8419-c03fe5e1c4da",
+  "name" : "user",
+  "request" : {
+    "url" : "/user",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"email\":\"vernia.schneider@example.com\",\"firstName\":\"Caryl\",\"id\":1923626523,\"lastName\":\"Zieme\",\"password\":\"paw8cvz79\",\"phone\":0,\"status\":8,\"userName\":\"ginette.schuster\"}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"code\":200,\"type\":\"unknown\",\"message\":\"1923626523\"}",
+    "headers" : {
+      "Server" : "Jetty(9.2.9.v20150224)",
+      "Access-Control-Allow-Origin" : "*",
+      "Access-Control-Allow-Methods" : "GET, POST, DELETE, PUT",
+      "Access-Control-Allow-Headers" : "Content-Type, api_key, Authorization",
+      "Date" : "Sun, 28 Jun 2026 15:19:41 GMT",
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "e96af6c7-ddae-4891-8419-c03fe5e1c4da",
+  "persistent" : true,
+  "insertionIndex" : 4
+}
